@@ -62,7 +62,7 @@ $(eval $(call add_define,BL32_BASE))
 BL32_SIZE		?=	0x2000000
 $(eval $(call add_define,BL32_SIZE))
 
-IMX_BOOT_UART_BASE	?=	0x30890000
+IMX_BOOT_UART_BASE	?=	0x30a60000
 $(eval $(call add_define,IMX_BOOT_UART_BASE))
 
 ifeq (${SPD},trusty)
