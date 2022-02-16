@@ -172,7 +172,7 @@ $(eval $(call add_define,BL32_BASE))
 BL32_SIZE		?=	0x2000000
 $(eval $(call add_define,BL32_SIZE))
 
-IMX_BOOT_UART_BASE	?=	0x30890000
+IMX_BOOT_UART_BASE	?=	0x30a60000
 ifeq (${IMX_BOOT_UART_BASE},auto)
     override IMX_BOOT_UART_BASE	:=	0
 endif
